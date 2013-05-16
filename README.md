@@ -16,3 +16,15 @@ With [composer](http://getcomposer.org)
     }
 }
 ```
+
+## Usage
+
+With [composer](http://getcomposer.org)
+
+```php
+require 'vendor/autoload.php';
+$facebook = new CliFacebook(array(
+  'appId' => $appId,
+  'secret' => $secret,
+));
+```
