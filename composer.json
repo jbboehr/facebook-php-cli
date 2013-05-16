@@ -1,0 +1,26 @@
+{
+    "name": "jbboehr/facebook-php-cli",
+    "description": "Facebook PHP SDK Wrapper for CLI",
+    "keywords": ["facebook", "sdk", "cli"],
+    "type": "library",
+    "homepage": "https://github.com/jbboehr/facebook-php-cli",
+    "license": "MIT",
+    "authors": [
+        {
+            "name" : "John Boehr",
+            "homepage" : "https://github.com/jbboehr"
+        }
+    ],
+    "require" : {
+        "php" : ">=5.3.0",
+        "ext-curl" : "*",
+        "ext-json" : "*",
+        "facebook/php-sdk" : "*"
+    },
+    "require-dev" : {
+        "phpunit/phpunit" : "*"
+    },
+    "autoload": {
+        "classmap": ["cli_facebook.php"]
+    }
+}
