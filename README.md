@@ -12,7 +12,7 @@ With [composer](http://getcomposer.org)
 ```json
 {
     "require": {
-        "jbboehr/facebook-php-cli": "~0.1.0"
+        "jbboehr/facebook-php-cli": "~1.0.0"
     }
 }
 ```
